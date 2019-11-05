@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "airbnb-base",
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "plugins": [
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "quotes": [2, "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
+    "no-console": 1,
+    "no-debugger": 1,
+    "no-var": 1,
+    "semi": [1, "always"],
+    "indent": ["error", 2],
+    "no-trailing-spaces": 0,
+    "eol-last": 0,
+    "no-underscore-dangle": 0,
+    "no-alert": 0,
+    "no-lone-blocks": 0,
+    "jsx-quotes": ["error", "prefer-single"],
+    "prefer-const": 1,
+    "prefer-arrow-callback": "error",
+    "arrow-spacing": "error",
+    "quote-props": [1, "consistent-as-needed"],
+    "no-cond-assign": [2, "except-parens"],
+    "no-unused-vars":["error", {"args": "none"}],
+    "space-infix-ops": 1,
+  },
+  "globals": {
+  }
+}
