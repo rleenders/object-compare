@@ -1,5 +1,5 @@
 {
-  "name": "object-compare",
+  "name": "object-delta",
   "version": "1.0.0",
   "description": "deep compares two objects, returns an array of objects containing key paths and deltas",
   "main": "index.js",
@@ -18,6 +18,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rleenders/object-compare"
+    "url": "https://github.com/rleenders/object-delta"
   }
 }
